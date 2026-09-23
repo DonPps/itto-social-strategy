@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="omelette-owns-print" content="deck-stage">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #1b1330; }
+  .tt { font-family: 'Poppins', sans-serif; }
+  .bd { font-family: 'Inter', sans-serif; }
+</style>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%" data-uneditable="">
+
+<section data-label="Titre" data-speaker-notes="Slide de titre : positionnement de la proposition." style="background:#6E6FC4;display:flex;align-items:center;overflow:hidden;position:relative;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div style="flex:1;padding:0 0 0 100px;z-index:2;">
+    <div class="tt" style="color:#FFFFFF;font-weight:800;font-size:88px;line-height:1.05;">L'Art de<br>Connecter.</div>
+    <div class="bd" style="color:#EDEBFA;font-weight:400;font-size:28px;line-height:1.5;max-width:720px;margin-top:36px;">Proposition de collaboration : donner vie à Itto sur Instagram, au carrefour de l'héritage marocain et de la culture numérique.</div>
+    
+  </div>
+  <div style="flex:1;height:100%;display:flex;align-items:flex-end;justify-content:center;position:relative;">
+    <img src="assets/itto-mascotte.png" alt="Itto, mascotte de la marque" style="height:104%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,0.35));">
+  </div>
+</section>
+
+<section data-label="De la terre a l'ecran" data-speaker-notes="Slide de transition / manifeste : le pourquoi du projet." style="background:#2B1F44;position:relative;overflow:hidden;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <img src="assets/itto-pain.png" alt="Pain traditionnel et blé" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.55;">
+  <div style="position:absolute;inset:0;background:linear-gradient(100deg,rgba(30,20,50,0.92) 0%,rgba(30,20,50,0.55) 48%,rgba(30,20,50,0.15) 100%);"></div>
+  <div style="position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 120px;max-width:1150px;">
+    <div class="tt" style="color:#FFFFFF;font-weight:800;font-size:56px;line-height:1.15;margin-bottom:44px;">De la Terre à la Table…<br>et maintenant à l'Écran.</div>
+    <div class="bd" style="color:#F1EEF9;font-weight:500;font-style:italic;font-size:30px;line-height:1.55;border-left:4px solid #DC92A0;padding-left:32px;">« Chaque matin, la terre se réveille avant nous… Et de ses bienfaits, nous apprenons à donner de notre temps, de nos mains et de notre cœur pour créer des moments qui nous rassemblent. »</div>
+    <div class="bd" style="color:#FFFFFF;font-weight:700;font-size:26px;line-height:1.5;margin-top:36px;max-width:900px;">L'essence de votre marque n'est pas la farine, c'est la chaleur familiale. Notre mission numérique est de digitaliser cette chaleur.</div>
+  </div>
+</section>
+
+<section data-label="Promesse de marque" data-speaker-notes="Recap du brand book : couleurs, typographie, valeurs." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:52px;line-height:1.15;margin-bottom:56px;">Notre Promesse :<br>L'Intégrité Absolue de Votre Identité.</div>
+  <div style="flex:1;display:grid;grid-template-columns:1fr 1fr 1fr;border:1px solid #E3DEEF;">
+    <div style="padding:36px;border-right:1px solid #E3DEEF;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:26px;text-align:center;margin-bottom:28px;">Les Fondations Visuelles</div>
+      <div style="display:flex;gap:18px;justify-content:center;">
+        <div style="text-align:center;">
+          <div style="width:96px;height:96px;background:#7172C5;border-radius:6px;"></div>
+          <div class="bd" style="color:#2E1F52;font-weight:600;font-size:24px;margin-top:12px;">L'Héritage</div>
+          <div class="bd" style="color:#8A80A8;font-size:24px;">#7172C5</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:96px;height:96px;background:#DC92A0;border-radius:6px;"></div>
+          <div class="bd" style="color:#2E1F52;font-weight:600;font-size:24px;margin-top:12px;">La Chaleur</div>
+          <div class="bd" style="color:#8A80A8;font-size:24px;">#DC92A0</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="width:96px;height:96px;background:#FFFFFF;border:1px solid #ddd;border-radius:6px;"></div>
+          <div class="bd" style="color:#2E1F52;font-weight:600;font-size:24px;margin-top:12px;">La Pureté</div>
+          <div class="bd" style="color:#8A80A8;font-size:24px;">#FFFFFF</div>
+        </div>
+      </div>
+    </div>
+    <div style="padding:36px;border-right:1px solid #E3DEEF;display:flex;flex-direction:column;align-items:center;justify-content:center;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:26px;margin-bottom:28px;">La Voix Écrite</div>
+      <div class="tt" style="color:#2E1F52;font-weight:800;font-size:64px;">Aa Bb Cc</div>
+      <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-top:20px;">Modern Moroccan Heritage</div>
+    </div>
+    <div style="padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:26px;margin-bottom:28px;">L'Âme</div>
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:26px;text-align:center;line-height:2.1;">Authenticité<br>Tradition<br>Excellence<br>Qualité</div>
+    </div>
+  </div>
+  <div style="background:#DC92A0;padding:26px;text-align:center;margin-top:1px;">
+    <div class="bd" style="color:#FFFFFF;font-weight:700;font-size:26px;">Chaque publication respectera rigoureusement les codes du Brand Book.</div>
+  </div>
+</section>
+
+<section data-label="Pivot mascotte" data-speaker-notes="Justification strategique : passer d'une image d'emballage a une presence vivante." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:48px;line-height:1.2;margin-bottom:48px;">Le Pivot Stratégique :<br>De Mascotte à Influenceuse Virtuelle.</div>
+  <div style="flex:1;display:flex;align-items:center;gap:56px;">
+    <div style="text-align:center;">
+      <img src="assets/itto-cake.png" alt="Sachet Itto, photo produit" style="width:340px;height:440px;object-fit:cover;border-radius:12px;box-shadow:0 20px 40px rgba(0,0,0,0.18);">
+      <div class="bd" style="color:#2E1F52;font-weight:600;font-size:24px;margin-top:20px;">Sachet Statique</div>
+    </div>
+    <div class="tt" style="font-size:64px;color:#7172C5;font-weight:800;">→</div>
+    <div style="position:relative;width:340px;height:440px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
+      <div style="position:absolute;width:280px;height:280px;background:#F3E9EE;border-radius:24px;transform:rotate(45deg);"></div>
+      <img src="assets/itto-mascotte.png" alt="Itto, influenceuse virtuelle" style="position:relative;height:460px;object-fit:contain;z-index:2;">
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px;flex:1;">
+      <div style="border:2px solid #DC92A0;border-radius:10px;padding:14px 22px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-bottom:4px;">1. L'Incarnation :</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.3;">Elle n'est plus seulement une image sur un sachet. Elle devient l'animatrice de votre communauté.</div>
+      </div>
+      <div style="border:2px solid #DC92A0;border-radius:10px;padding:14px 22px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-bottom:4px;">2. L'Interactivité :</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.3;">Elle cuisine, elle commente l'actualité, elle répond aux messages.</div>
+      </div>
+      <div style="border:2px solid #DC92A0;border-radius:10px;padding:14px 22px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-bottom:4px;">3. L'Attachement :</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.3;">Création d'un lien parasocial fort avec l'audience marocaine.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Equilibre editorial" data-speaker-notes="Matrice de positionnement du contenu : 4 quadrants." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;align-items:center;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:52px;line-height:1.2;margin-bottom:56px;align-self:flex-start;">L'Équilibre Éditorial :<br>La Recette d'un Feed Parfait.</div>
+  <div style="flex:1;width:100%;display:grid;grid-template-columns:120px 1fr 1fr;grid-template-rows:1fr 1fr;gap:0;max-width:1500px;position:relative;">
+    <div style="grid-row:1;display:flex;align-items:center;justify-content:center;"></div>
+    <div style="background:#F3E4DE;padding:40px;display:flex;flex-direction:column;justify-content:center;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:28px;margin-bottom:10px;">Fierté Nationale</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;">Marche Verte, Fêtes Religieuses</div>
+    </div>
+    <div style="background:#E7E4F5;padding:40px;display:flex;flex-direction:column;justify-content:center;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:28px;margin-bottom:10px;">Agilité &amp; Temps Réel</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;">Humour,&nbsp; Matchdays ENDM</div>
+    </div>
+    <div style="grid-row:2;display:flex;align-items:center;justify-content:center;"></div>
+    <div style="background:#F2F0F2;padding:40px;display:flex;flex-direction:column;justify-content:center;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:28px;margin-bottom:10px;">Proximité Culinaire</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;">Recettes, Astuces de cuisine, Interaction</div>
+    </div>
+    <div style="background:#EFE9F0;padding:40px;display:flex;flex-direction:column;justify-content:center;">
+      <div class="tt" style="color:#2E1F52;font-weight:700;font-size:28px;margin-bottom:10px;">Vitrine Premium</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;">Mise en avant des gammes Cake, Finot, Durum</div>
+    </div>
+    <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:260px;height:260px;background:#FFFFFF;border:3px solid #7172C5;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+      <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;line-height:1.3;">Une présence sociale qui nourrit à la fois l'esprit et le panier d'achat.</div>
+    </div>
+  </div>
+  <div class="bd" style="display:grid;grid-template-columns:120px 1fr 1fr;width:100%;max-width:1500px;margin-top:14px;">
+    <div></div>
+    <div style="color:#7172C5;font-weight:700;font-size:24px;">← Tradition &amp; Héritage</div>
+    <div style="color:#7172C5;font-weight:700;font-size:24px;text-align:right;">Modernité &amp; Pop-Culture →</div>
+  </div>
+</section>
+
+<section data-label="Pilier 1 - Ame marocaine" data-speaker-notes="Presentation des deux premiers contenus phares : Marche Verte et Aid al-Adha." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:48px;margin-bottom:52px;">Pilier 1 : L'Âme Marocaine <span style="color:#7172C5;">(Célébrer nos Traditions)</span></div>
+  <div style="flex:1;display:flex;gap:80px;justify-content:center;align-items:flex-start;">
+    <div style="text-align:center;">
+      <div style="width:270px;height:560px;border-radius:36px;background:#1b1330;padding:14px;box-shadow:0 25px 45px rgba(0,0,0,0.2);">
+        <img src="assets/itto-marche-verte.png" alt="Post Itto x Marche Verte" style="width:100%;height:100%;object-fit:cover;border-radius:24px;">
+      </div>
+      <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-top:22px;">Focus Marche Verte</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;max-width:420px;margin:8px auto 0;line-height:1.35;">Itto comme figure de patriotisme doux et respectueux. « Une fierté qui se transmet de génération en génération. »</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="width:270px;height:560px;border-radius:36px;background:#1b1330;padding:14px;box-shadow:0 25px 45px rgba(0,0,0,0.2);">
+        <img src="assets/itto-aid.png" alt="Post Itto x Aid al-Adha" style="width:100%;height:100%;object-fit:cover;border-radius:24px;">
+      </div>
+      <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-top:22px;">Focus Aïd Al-Adha</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;max-width:420px;margin:8px auto 0;line-height:1.35;">Itto au cœur du foyer, incarnant l'hospitalité et l'excellence culinaire. « Le goût du rassemblement. »</div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Pilier 2 - Pop culture" data-speaker-notes="Contenu agile, ancre dans l'actualite sportive : Itto x Bounou." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:48px;margin-bottom:44px;max-width:1500px;">Pilier 2 : L'Agilité Pop-Culture <span style="color:#7172C5;">(Le Sourire au Cœur de l'Actu)</span></div>
+  <div style="flex:1;display:flex;gap:70px;align-items:center;">
+    <div style="width:460px;height:100%;border-radius:28px;overflow:hidden;box-shadow:0 25px 45px rgba(0,0,0,0.18);flex-shrink:0;">
+      <img src="./chatgpt-image-23-sept-2026-00_41_49-mudbjnzl-d9tr.png" alt="Post Itto x Bounou, concept Matchday" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;gap:26px;">
+      <div>
+        <div style="background:#2E1F52;color:#FFFFFF;padding:16px 26px;border-radius:8px 8px 0 0;">
+          <div class="bd" style="font-weight:700;font-size:24px;">Concept : Itto x Matchday</div>
+        </div>
+        <div style="border:1px solid #E3DEEF;padding:22px 26px;">
+          <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">Insuffler de l'humour et du soutien lors des matchs de <b>l'Équipe Nationale</b>.</div>
+        </div>
+      </div>
+      <div>
+        <div style="background:#2E1F52;color:#FFFFFF;padding:16px 26px;border-radius:8px 8px 0 0;">
+          <div class="bd" style="font-weight:700;font-size:24px;">Objectif</div>
+        </div>
+        <div style="border:1px solid #E3DEEF;padding:22px 26px;">
+          <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">Générer de la viralité, des partages (shares), et ancrer Itto dans les conversations quotidiennes de la jeunesse marocaine.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Pilier 3 - Produit" data-speaker-notes="Mise en avant des gammes produit sous forme de trois posts." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:48px;margin-bottom:52px;">Pilier 3 : La Farine comme Œuvre d'Art <span style="color:#7172C5;">(Focus Produit)</span></div>
+  <div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+    <div style="display:flex;gap:32px;align-items:center;">
+      <img src="assets/itto-cake.png" alt="Post l'art du cake" style="height:720px;width:auto;border-radius:14px;box-shadow:0 16px 32px rgba(0,0,0,0.14);flex-shrink:0;">
+      <div style="display:flex;flex-direction:column;gap:14px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:28px;line-height:1.25;">Post 1 : L'Art du Cake</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">Mise en avant de la farine de blé tendre spéciale pâtisserie. « Un moelleux inégalé sans grumeaux. »</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:32px;align-items:center;">
+      <img src="assets/itto-pain.png" alt="Post l'heritage du pain" style="height:720px;width:auto;border-radius:14px;box-shadow:0 16px 32px rgba(0,0,0,0.14);flex-shrink:0;">
+      <div style="display:flex;flex-direction:column;gap:14px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:28px;line-height:1.25;">Post 2 : L'Héritage du Pain</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">Hommage au Msemen et au Finot (Blé Dur). « Le craquant du four traditionnel. »</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Esthetique du feed" data-speaker-notes="Vision d'ensemble du feed Instagram : alternance illustration / photo / graphique." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;align-items:center;gap:80px;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div style="flex:1;">
+    <div class="tt" style="color:#2E1F52;font-weight:800;font-size:44px;line-height:1.2;margin-bottom:40px;">L'Esthétique Globale :<br>Le Feed 'Itto Ya Salam'.</div>
+    <div style="display:flex;gap:20px;align-items:flex-start;margin-bottom:30px;">
+      <img src="assets/itto-mascotte.png" alt="Itto" style="width:64px;height:64px;border-radius:50%;object-fit:cover;object-position:top center;flex-shrink:0;">
+      <div>
+        <div class="tt" style="color:#7172C5;font-weight:700;font-size:26px;margin-bottom:8px;">L'Harmonie Visuelle</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">L'alternance parfaite entre illustration 2D ('Cultural Charm'), photographie culinaire appétissante ('Artisanal Baking Comfort'), et respirations graphiques (Brand Book).</div>
+      </div>
+    </div>
+    <div class="tt" style="color:#7172C5;font-weight:700;font-size:26px;margin-bottom:8px;">Résultat</div>
+    <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">Un profil Instagram qui ne ressemble pas à un catalogue industriel, mais à un véritable magazine d'art de vivre marocain.</div>
+  </div>
+  <div style="width:420px;height:860px;border-radius:44px;background:#1b1330;padding:16px;flex-shrink:0;box-shadow:0 30px 55px rgba(0,0,0,0.2);">
+    <div style="width:100%;height:100%;border-radius:30px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:4px;background:#000;">
+      <img src="assets/itto-cake.png" style="width:100%;height:100%;object-fit:cover;">
+      <img src="assets/itto-marche-verte.png" style="width:100%;height:100%;object-fit:cover;">
+      <img src="./chatgpt-image-23-sept-2026-00_41_49-mudbs2ao-j09b.png" style="width:100%;height:100%;object-fit:cover;" alt="chatgpt-image-23-sept-2026-00_41_49">
+      <div style="background:#DC92A0;display:flex;align-items:center;justify-content:center;">
+        <div class="tt" style="color:#FFFFFF;font-weight:800;font-size:30px;">إيطو</div>
+      </div>
+      <img src="assets/itto-pain.png" style="width:100%;height:100%;object-fit:cover;">
+      <div style="background:#7172C5;display:flex;align-items:center;justify-content:center;">
+        <div class="tt" style="color: #FFFFFF; font-weight: 800; font-size: 26px; text-align: center; font-family: Playfair Display">يا <br>سلام</div>
+      </div>
+      <img src="./itto-x-aid-al-adha-mudbssiz-r4mo.png" style="width:100%;height:100%;object-fit:cover;" alt="chatgpt-image-23-sept-2026-00_41_49">
+      <img src="./pain-traditionnel-au-four-montagnard-mudbtiyy-odcx.png" style="width:100%;height:100%;object-fit:cover;" alt="pain-traditionnel-au-four-montagnard"><div style="background:#F3E4DE;display:flex;align-items:center;justify-content:center;">
+        <div class="tt" style="color:#7172C5;font-weight:800;font-size:44px;">🌾</div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section data-label="Itto en video" data-speaker-notes="Video Itto : lancer la lecture si elle ne demarre pas." style="background:#6E6FC4;display:flex;align-items:center;justify-content:center;gap:120px;padding:70px 100px;overflow:hidden;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div style="max-width:620px;">
+    <div class="tt" style="color:#FFFFFF;font-weight:800;font-size:72px;line-height:1.1;">Itto en<br>Mouvement.</div>
+    <a href="https://youtube.com/shorts/zA9X-VpI9yk" target="_blank" rel="noopener" class="bd" style="display:inline-flex;align-items:center;gap:12px;margin-top:40px;background:#DC92A0;color:#FFFFFF;font-weight:700;font-size:24px;padding:18px 30px;border-radius:10px;text-decoration:none;">▶ Voir sur YouTube</a>
+  </div>
+  <div style="height:900px;aspect-ratio:9/16;border-radius:44px;background:#1b1330;padding:16px;box-shadow:0 30px 60px rgba(0,0,0,0.35);flex-shrink:0;">
+    <iframe src="https://www.youtube-nocookie.com/embed/zA9X-VpI9yk?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=zA9X-VpI9yk&amp;rel=0&amp;playsinline=1" title="Vidéo Itto" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen="" referrerpolicy="strict-origin-when-cross-origin" style="width:100%;height:100%;border:0;border-radius:30px;display:block;"></iframe>
+  </div>
+</section>
+
+<section data-label="La voix d'Itto" data-speaker-notes="Ton de communication : proche, chaleureux, expert. Exemple de reponse SAV." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:52px;margin-bottom:52px;">La Voix d'Itto : <span style="color:#7172C5;">Proche, Chaleureuse, et Experte.</span></div>
+  <div style="flex:1;display:flex;gap:70px;align-items:center;">
+    <div style="width:400px;height:100%;border-radius:36px;background:#1b1330;padding:16px;box-shadow:0 25px 45px rgba(0,0,0,0.18);flex-shrink:0;">
+      <div style="width: 359px; height: 693px; border-radius: 22px; background: #F7F5FB; padding: 30px 22px; display: flex; flex-direction: column; gap: 18px">
+        <div style="align-self:flex-end;background:#DC92A0;color:#FFFFFF;border-radius:16px 16px 4px 16px;padding:16px 20px;max-width:85%;">
+          <div class="bd" style="font-size:24px;line-height:1.3;">Bonjour, quelle farine utiliser pour réussir un cake très moelleux ?</div>
+        </div>
+        <div style="display:flex;gap:10px;align-items:flex-end;">
+          <div style="background:#7172C5;color:#FFFFFF;border-radius:16px 16px 16px 4px;padding:16px 20px;">
+            <div class="bd" style="font-size:24px;line-height:1.25;">Bonjour Lalla ! Pour un cake d'un moelleux incomparable, notre farine de blé tendre spéciale pâtisserie (le sachet rose) est votre meilleure alliée. N'hésitez pas à tamiser la farine avant de l'incorporer. Bonne préparation ! ✨</div>
+          </div>
+          <img src="assets/itto-mascotte.png" alt="Itto" style="width:38px;height:38px;border-radius:50%;object-fit:cover;object-position:top center;flex-shrink:0;">
+        </div>
+      </div>
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;gap:22px;">
+      <div style="border:2px solid #7172C5;border-radius:10px;padding:20px 26px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-bottom:4px;">Proximité :</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.25;">Utilisation naturelle de termes affectueux ('Lalla', 'Khti') pour instaurer une relation de confiance immédiate.</div>
+      </div>
+      <div style="border:2px solid #7172C5;border-radius:10px;padding:20px 26px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-bottom:4px;">Passion Culinaire :</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.25;">Des réponses qui apportent toujours une valeur ajoutée ou une astuce de cuisine.</div>
+      </div>
+      <div style="border:2px solid #7172C5;border-radius:10px;padding:20px 26px;">
+        <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-bottom:4px;">Gestion Qualité (SAV) :</div>
+        <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.25;">Un protocole strict de modération, offrant des réponses rassurantes et expertes aux requêtes produit.</div>
+      </div>
+    </div>
+  </div>
+  <div class="bd" style="color:#2E1F52;font-weight:700;font-size:24px;margin-top:36px;">La Règle d'Or : Itto n'est jamais un 'robot corporatif' ; elle est l'amie experte en cuisine.</div>
+</section>
+
+<section data-label="Feuille de route" data-speaker-notes="Planning en trois etapes, filees sur la metaphore culinaire." style="background:#FFFFFF;padding:90px 100px 70px;display:flex;flex-direction:column;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div class="tt" style="color:#2E1F52;font-weight:800;font-size:52px;line-height:1.2;margin-bottom:70px;">De la Cuisine à la Publication :<br>Notre Feuille de Route.</div>
+  <div style="flex:1;display:flex;align-items:center;justify-content:space-between;gap:40px;">
+    <div style="flex:1;text-align:center;">
+      <div style="width:150px;height:150px;border-radius:50%;border:6px solid #7172C5;display:flex;align-items:center;justify-content:center;margin:0 auto 30px;">
+        <div class="tt" style="color:#2E1F52;font-weight:800;font-size:26px;">Mois 1</div>
+      </div>
+      <div class="tt" style="color:#7172C5;font-weight:700;font-size:24px;margin-bottom:10px;">Étape 1 : La Préparation</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">« Le tamisage des idées. » Setup des outils sociaux, validation du calendrier éditorial détaillé, création des templates.</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="width:150px;height:150px;border-radius:50%;border:6px solid #7172C5;display:flex;align-items:center;justify-content:center;margin:0 auto 30px;">
+        <div class="tt" style="color:#2E1F52;font-weight:800;font-size:24px;">Mois 2</div>
+      </div>
+      <div class="tt" style="color:#7172C5;font-weight:700;font-size:24px;margin-bottom:10px;">Étape 2 : Le Pétrissage</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">« La pâte prend vie. » Lancement des premiers piliers, activation de la mascotte Itto, community management proactif, premiers posts 'Matchday'.</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="width:150px;height:150px;border-radius:50%;border:6px solid #7172C5;display:flex;align-items:center;justify-content:center;margin:0 auto 30px;">
+        <div class="tt" style="color:#2E1F52;font-weight:800;font-size:24px;">Mois 3+</div>
+      </div>
+      <div class="tt" style="color:#7172C5;font-weight:700;font-size:24px;margin-bottom:10px;">Étape 3 : La Dégustation</div>
+      <div class="bd" style="color:#4A3D66;font-size:24px;line-height:1.4;">« L'analyse des saveurs. » Reporting mensuel des KPIs (Engagement, Portée), ajustement de l'équilibre éditorial, et optimisation.</div>
+    </div>
+  </div>
+</section>
+
+<section data-label="Passons a l'etape suivante" data-speaker-notes="Slide de cloture / appel a l'action pour valider le calendrier editorial." style="background:#6E6FC4;display:flex;align-items:center;overflow:hidden;position:relative;">
+  <div style="position:absolute;top:22px;right:56px;z-index:10;background:#7172C5;border-radius:14px;padding:10px 20px;display:flex;align-items:center;"><img src="assets/itto-logo.png" alt="Logo Itto" style="height:52px;width:auto;display:block;"></div>
+  <div style="flex:1;height:100%;display:flex;align-items:flex-end;justify-content:center;position:relative;">
+    <img src="assets/itto-mascotte.png" alt="Itto" style="height:100%;object-fit:contain;filter:drop-shadow(0 30px 60px rgba(0,0,0,0.35));">
+  </div>
+  <div style="flex:1;padding:0 100px 0 0;z-index:2;">
+    <div class="bd" style="color:#EDEBFA;font-weight:600;font-size:24px;margin-bottom:18px;">Prêts à faire briller Itto ?</div>
+    <div class="tt" style="color:#FFFFFF;font-weight:800;font-size:52px;line-height:1.2;margin-bottom:32px;">Itto, l'art de la perfection au quotidien.</div>
+    <div style="background:#DC92A0;padding:26px 30px;border-radius:8px;margin-bottom:40px;">
+      <div class="bd" style="color:#FFFFFF;font-weight:700;font-size:24px;line-height:1.4;">Passons à l'étape suivante : validons ensemble votre premier calendrier éditorial.</div>
+    </div>
+    <div style="display:flex;gap:18px;flex-wrap:wrap;">
+      <div class="bd" style="color:#FFFFFF;font-weight:700;font-size:24px;">Respect de l'héritage</div>
+      <div class="bd" style="color:#EDEBFA;font-weight:700;font-size:24px;">+</div>
+      <div class="bd" style="color:#FFFFFF;font-weight:700;font-size:24px;">Stratégie de contenu innovante</div>
+      <div class="bd" style="color:#EDEBFA;font-weight:700;font-size:24px;">+</div>
+      <div class="bd" style="color:#FFFFFF;font-weight:700;font-size:24px;">Rigueur opérationnelle</div>
+    </div>
+    <div style="margin-top:56px;padding-top:28px;border-top:2px solid rgba(255,255,255,0.35);display:flex;flex-direction:column;gap:6px;">
+      <div class="tt" style="color:#FFFFFF;font-weight:800;font-size:30px;">YOCHSTUDIO</div>
+      <div style="font-size: 24px; font-family: Inter, sans-serif">+212 671-900007</div><div class="bd" style="display:flex;gap:28px;flex-wrap:wrap;color:#FFFFFF;font-size:24px;">
+        <div>contact@yochstudio.net</div>
+        
+        <div>www.yochstudio.com</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</x-import>
+</x-dc>
+</body>
+</html>
